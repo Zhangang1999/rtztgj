@@ -1,10 +1,10 @@
 # rtztgj
-bistu
+bistu<br>
 ---coco   coco的相关算法 可视化等 <br>
----utils  工具类
----model  模型
----test   测试方法
----train.py 训练方法
+---utils  工具类<br>
+---model  模型<br>
+---test   测试方法<br>
+---train.py 训练方法<br>
 例如： coco 可视化代码卸载 coco文件夹下 在test写测试方法
 
 ```
