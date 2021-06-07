@@ -7,7 +7,7 @@ import os
 import errno
 import sys
 
-# tensor 转 numpy
+# tensor to numpy
 def to_numpy(tensor):
     if torch.is_tensor(tensor):
         return tensor.cpu().numpy()
@@ -15,7 +15,7 @@ def to_numpy(tensor):
         raise ValueError("Cannot convert {} to numpy array"
                          .format(type(tensor)))
     return tensor
-# ndarray 转 torch
+# ndarray to torch
 def to_torch(ndarray):
     if type(ndarray).__module__ =='numpy':
         return torch.from_numpy(ndarray)
