@@ -5,7 +5,7 @@ bistu<br>
 ---model  模型<br>
 ---test   测试方法<br>
 ---train.py 训练方法<br>
-例如： coco 可视化代码卸载 coco文件夹下 在test写测试方法
+例如： coco 可视化代码存放在coco文件夹下 在test写测试方法
 
 ```
 数据存放位置:/home/ici/Documents/姿态估计
